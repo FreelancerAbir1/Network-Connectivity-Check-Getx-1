@@ -22,7 +22,7 @@ class NetworkController extends GetxController {
     try {
       connectivityResult = await (_connectivity.checkConnectivity());
     } on PlatformException {
-      return null;
+      return;
     }
     return _updateState(connectivityResult);
   }

@@ -7,6 +7,6 @@ class ConnectivityBinding extends Bindings {
   void dependencies() {
     // ignore: todo
     // TODO: implement dependencies
-    Get.lazyPut<NetworkController>(() => NetworkController());
+   Get.lazyPut<NetworkController>(() => NetworkController());
   }
 }
